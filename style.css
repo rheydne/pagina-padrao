@@ -1,0 +1,130 @@
+body {
+    font-family: Nunito, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    background-color: #36aa20;
+    height: 60px;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.topnav a{
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: #FFF;
+}
+
+.topnav nav ul{
+    margin: 0;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav nav li{
+    padding-right: 30px;
+}
+
+.hamburguer{
+    background-color: transparent;
+    border: 0;
+    color: #FFF;
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hamburguer img{
+    width: 30px;
+}
+
+.hamburguer:focus{
+    outline: none;
+}
+
+.footer{
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: #36aa20;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer div{
+    max-width: 100%;
+}
+
+.footer a{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #FFF;
+}
+
+.logo img{  
+    width: 170px;
+    max-width: 100%;
+}
+
+.logo1 img{
+    width: 300px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.notificacoes img{
+    width:30px;
+    max-width: 100%;
+}
+
+.pesquisar img{
+    width:30px;
+    max-width: 100%;
+}
+
+.login img{
+    width:35px;
+    max-width: 100%;
+    margin-left: 30px;
+}
+
+.contato{
+    text-align: center;
+    color:#FFF;
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    width:70px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1040px){
+    .nav-ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+}
